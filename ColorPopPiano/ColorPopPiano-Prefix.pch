@@ -1,0 +1,19 @@
+//
+//  ColorPopPiano-Prefix.pch
+//  ColorPopPiano
+//
+//  Created by Soojung Ha on 6/11/18.
+//  Copyright © 2018 Soojung Ha. All rights reserved.
+//
+
+#ifndef ColorPopPiano_Prefix_pch
+#define ColorPopPiano_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
+
+#endif /* ColorPopPiano_Prefix_pch */
