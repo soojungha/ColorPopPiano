@@ -20,6 +20,7 @@
 		8DD90B4820CF7E0100590F2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD90B4720CF7E0100590F2F /* CoreGraphics.framework */; };
 		8DD90B4A20CF7E0800590F2F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD90B4920CF7E0800590F2F /* CoreVideo.framework */; };
 		8DD90B4C20CF7E1700590F2F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD90B4B20CF7E1700590F2F /* CoreMedia.framework */; };
+		8DDC7DC820D193B2006955BF /* ImageUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC7DC720D193B2006955BF /* ImageUtil.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		8DD90B4720CF7E0100590F2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8DD90B4920CF7E0800590F2F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		8DD90B4B20CF7E1700590F2F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8DDC7DC620D192BB006955BF /* ImageUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		8DDC7DC720D193B2006955BF /* ImageUtil.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageUtil.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				8DD90B3220CF722600590F2F /* LaunchScreen.storyboard */,
 				8DD90B3520CF722600590F2F /* Info.plist */,
 				8DD90B3620CF722600590F2F /* main.m */,
+				8DDC7DC620D192BB006955BF /* ImageUtil.h */,
+				8DDC7DC720D193B2006955BF /* ImageUtil.mm */,
 			);
 			path = ColorPopPiano;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 				8DD90B2C20CF722400590F2F /* MainViewController.mm in Sources */,
 				8DD90B3720CF722600590F2F /* main.m in Sources */,
 				8DD90B2920CF722400590F2F /* AppDelegate.m in Sources */,
+				8DDC7DC820D193B2006955BF /* ImageUtil.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
